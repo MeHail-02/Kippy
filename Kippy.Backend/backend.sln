@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kippy.API", "src\Kippy.API\Kippy.API.csproj", "{533EEDA0-63E7-4C40-9D83-EB37485F3F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kippy.Infrastructure", "src\Kippy.Infrastructure\Kippy.Infrastructure.csproj", "{29735D11-04A1-4B88-B351-5E9C07A66D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kippy.Domain", "src\Kippy.Domain\Kippy.Domain.csproj", "{734F459F-9861-4770-AF6E-4D17C704D3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kippy.Application", "src\Kippy.Application\Kippy.Application.csproj", "{B1B4EF6F-8026-4CBE-815F-EB76A2973A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533EEDA0-63E7-4C40-9D83-EB37485F3F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533EEDA0-63E7-4C40-9D83-EB37485F3F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533EEDA0-63E7-4C40-9D83-EB37485F3F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533EEDA0-63E7-4C40-9D83-EB37485F3F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29735D11-04A1-4B88-B351-5E9C07A66D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29735D11-04A1-4B88-B351-5E9C07A66D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29735D11-04A1-4B88-B351-5E9C07A66D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29735D11-04A1-4B88-B351-5E9C07A66D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734F459F-9861-4770-AF6E-4D17C704D3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734F459F-9861-4770-AF6E-4D17C704D3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734F459F-9861-4770-AF6E-4D17C704D3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734F459F-9861-4770-AF6E-4D17C704D3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B4EF6F-8026-4CBE-815F-EB76A2973A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B4EF6F-8026-4CBE-815F-EB76A2973A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B4EF6F-8026-4CBE-815F-EB76A2973A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B4EF6F-8026-4CBE-815F-EB76A2973A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
